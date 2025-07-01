@@ -1,27 +1,196 @@
+* {
+  padding:0;
+  margin:0 ;
+  box-sizing:border-box;
+  font-family: "poppins", sans-serif;
+}
+
+
+nav > a{
+    text-decoration: none;
+    margin:1rem;
+   /* color:inherit;*/
+    
+}
 
 #logo{
-    width:50px;
-    height:50px;
-    color: #AFF;
+  font-size: medium;
 }
+h1{
+  font-family:"Anton" ;
+
+	margin: 0;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  
+}
+h2, h3, h4, h5{
+   text-transform: uppercase;
+    font-family:"Anton";
+     letter-spacing:2px;
+}
+#logo{
+  font-family:"Anton" ;
+  letter-spacing:2px;
+}
+.navbar-nav .nav-link.active{
+ 
+  color:black;
+  text-decoration: underline; 
+  text-decoration-thickness:4px ;
+}
+
+
 #container{
 
-     width: 60%;
+     width: 100%;
     margin:auto;
 }
-img {
-
-width:100%;
-
-
+.top{
+ display: flex !important;
+    position:relative;
 }
-ul{
-    float:right;
+.content{
+   display: flex !important;
+   flex-flow: column wrap;
+    position:absolute;
+     bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
 }
-footer{
-    display:flex;
-    bottom: auto;
-     margin-top:50px;
-    background-color: Slategrey;
+#myVideo{
+     right: 0;
+     bottom: 15px;
+    width: 100%;    
+}
+
+img{
+    background-position: center;
+    width: 100%;
+    	border-radius: 8px;
+}
+
+.hero{
+background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center ;
+     width: 100%;
+}
+body{
+  min-height: 100vh;
+    background-image: url('images/background.jpg');
+    background-size: 100% auto ;
+    background-position: center top;
+  background-attachment: fixed;
+    
     color:white;
+    font-family: "lato", sans-serif;
+}
+.class-type{
+  display:flex;
+   border: 2px solid black;
+}
+.course{
+  background-color: #444;
+  color:white;
+ margin:10px 5px;
+  border-radius: 8px;
+
+  width:50%;
+
+}
+.course-img{
+   display:flex;
+   width:50%;
+
+}
+#testimonials{
+  display: flex;
+  justify-content:space-around;
+  color:white;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 20px 20px red;
+}
+.testimonials-box{
+  display: inline-block;
+width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color:#444;
+  color: white;
+}
+
+ /* .aboutimage{
+   right: 0;
+     bottom: 15px;
+    
+      height: 50vh;	
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center 75%;
+
+}*/
+
+
+.button {
+  padding:7px 20px;
+  margin-bottom: 10px;
+  color:#fff;
+  background-image:linear-gradient(45deg,red, #72020c );
+   border-top-right-radius: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px,solid,  #231f20;
+}
+
+/* :#003153*/
+
+/* google fonts */
+.fa {font-size:50px;}
+/* google font*/
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.wdxl-lubrifont-jp-n-regular {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Footer*/
+  #social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  #social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
+  }
+
+
+footer{
+   text-align: center;
+    bottom: auto;
+     margin-top:15px;
+
+}
+
+/* Media query: tablets and larger (768px and up)*/
+@media screen and (min-width:768px){
+
+   
 }

@@ -1,77 +1,87 @@
-# [DINOSAURS KIDS CLUB](https://maxcode0101.github.io/Dinosaurs-Kids-Club)
+# SheCAN Self-defence center for women
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Maxcode0101/Dinosaurs-Kids-Club)](https://github.com/Maxcode0101/Dinosaurs-Kids-Club/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Maxcode0101/Dinosaurs-Kids-Club)](https://github.com/Maxcode0101/Dinosaurs-Kids-Club/commits/main)
-[![GitHub repo size](https://img.shields.io/github/repo-size/Maxcode0101/Dinosaurs-Kids-Club)](https://github.com/Maxcode0101/Dinosaurs-Kids-Club)
 
-Name of the Project: Dinosaurs-Kids-Club
+Name of the Project: SheCAN
+Empower Women Through Self-Defense
 
-Dinosaurs-Kids-Club is an Online-Science-Club for children (and their parents) who are interested in dinosaurs and fossils. It´s an exciting place for kids to have fun, play and learn everything about dinosaurs, their history and about fossils. Parents can sign-up and will receive a weekly newsletter with cool stories about dinos, instructions for handicrafts, bedtime-stories and similiar. We host volunteerly teaching scientist who´re doing a monthly online lesson about dino-topics. Once a year we´re organising an excursion, this could be the visit of a museum, an archeological site or a dino-adventure-park. Every member is receiving a monthly surprise gift inside a dino egg. The surprise box can contain, dino games or toys. 
-In this section, you will include a few paragraphs providing an overview of your project.
+Our self-defense center is dedicated to empowering women with the knowledge, skills, and confidence they need to protect themselves in everyday situations. We believe that every woman has the right to feel safe and strong, whether walking alone, commuting, or navigating public or private environments. Through expert-led training, we aim to make self-defense accessible, practical, and tailored to real-life scenarios.
 
-https://ui.dev/amiresponsive?url=https://maxcode0101.github.io/Dinosaurs-Kids-Club
+We offer a range of training options to suit every lifestyle and need. Whether you’re looking for one-on-one personal training, dynamic group classes, or specialized corporate sessions, our programs are designed with flexibility and professionalism in mind. Each course is led by certified instructors who create a supportive, respectful, and inclusive environment where women can learn at their own pace.
 
-![screenshot](documentation/mockup.png)
+Our mission goes beyond physical training — it’s about building a community that encourages mental strength, confidence, and awareness. With our self-defense center, women don’t just learn to react — they learn to prevent, to stay aware, and to carry themselves with assurance wherever they go. Join us and take the first step toward a safer, more empowered life.
+
+
+Here is the deployed website: 
+
+![screenshot]
 
 ## UX
 
-I started designing the about-us page, by thinking about what is most important for the user on the first view and how can the benefit of using the site be displayed most efficiently. Afterwards I designed a color-scheme and placed the elements in an appealing way. I added the content I was thinking about and some interactive elements. Afterwards I created the sign-up page, and the meet the dinosaurs page, which should give the user some idea what to expect from full access to the member section and deliver some knowledge about the the topic of the page.
+I started thinking about header of my pages content where I wanted a powerful video /photos to clearly indicate the purpose of the webpage. Tha main porpose and a call to action clearly showed indicat to the user where they can enroll for the next course. 
+Afterwards I started to think about a Icon and name that would suit my porpose. Then I started thinking about the layout and the color-scheme I wanted. Lastly I added the content I wanted  
+
 
 ### Colour Scheme
 
-- `#7D3E00` used for primary text.
-- `#E2F6B9` used for primary background.
-- `#FFFFFF` used for secondary text.
-- `rgb(190, 4, 4)` used for secondary highlights.
+- `black` used for primary text.
+- `#444` used for secondary text.
+- `rgb(190, 4, 4)` used for primary highlights.
 
 I used [coolors.co](https://coolors.co/7d3e00-e2f6b9-ffffff-be0404) to generate my colour palette.
 
-![screenshot](documentation/colors.png)
+![screenshot]
 
 
 ### Typography
 
-- [Oswald](https://fonts.google.com/specimen/Oswald) was used for the primary headers and titles.
+- [Anton](https://fonts.google.com/specimen/Anton) was used for the primary headers and titles.
 
-- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all other secondary text.
+- [Oswald](https://fonts.google.com/specimen/Oswald) was used for all other secondary text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer and the icon at the sign-up form.
 
 
 ### Existing Features
 
-- **About us**
+- **About the course**
 
-    - About us / gives an overview of benefits for members.
+    - About the course / gives an overview of benefits for members.
 
-![screenshot](documentation/features_home.png)
+![screenshot]
 
-- **Member**
+- **Testimonials**
 
-    - Member / contents the sign up form which needs to be filled out to get access.
+    - Testimonials / contents the sign up form which needs to be filled out to get access.
 
 ![screenshot](documentation/features_form.png)
 
-- **Meet the dinosaurs**
+- **Schedule & Registration**
 
-    - Meet the dinosaurs / preview of content which the user can expect after becoming a member.
+    - Schedule & Registration / preview of content which the user can expect after becoming a member.
 
-![screenshot](documentation/features_meet.png)
+- **Contact**
+
+    - Contact / preview of content which the user can expect after becoming a member.
+
+![screenshot]
 
 ### Future Features
 
-- Videochannel with exciting documentaries and experiments to do at home.
+- Events.
+- newsletter
 
 ## Tools & Technologies Used
 
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
-- [![Gitpod](https://img.shields.io/badge/Gitpod-grey?logo=gitpod&logoColor=FFAE33)](https://gitpod.io) used as a cloud-based IDE for development.
+- vscode used as a cloud-based IDE for development.
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
+- bootstrap
+-googlefonts
 
 ## Testing
 
@@ -82,11 +92,11 @@ I used [coolors.co](https://coolors.co/7d3e00-e2f6b9-ffffff-be0404) to generate 
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/Maxcode0101/Dinosaurs-Kids-Club), navigate to the Settings tab 
+- In the [GitHub repository](https://github.com/Scaphix/She-CAN), navigate to the Settings tab 
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://maxcode0101.github.io/Dinosaurs-Kids-Club)
+The live link can be found [here](https:/SHECAN)
 
 ### Local Deployment
 
@@ -156,6 +166,6 @@ https://www.activewild.com/famous-dinosaurs/
 
 ### Acknowledgements
 
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
+- I would like to thank my Code Institute mentor,  for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.# She-Can

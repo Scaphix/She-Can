@@ -6,15 +6,23 @@
 }
 
 
-nav > a{
+li > a{
     text-decoration: none;
     margin:1rem;
+    padding:0px;
+    margin:0px;
+    width: fit-content;
    /* color:inherit;*/
     
 }
+a:hover{
+  color: red;
+}
 
 #logo{
-  font-size: medium;
+  font-size: large;
+  font-family:"Anton" ;
+  letter-spacing:2px;
 }
 h1{
   font-family:"Anton" ;
@@ -29,15 +37,13 @@ h2, h3, h4, h5{
     font-family:"Anton";
      letter-spacing:2px;
 }
-#logo{
-  font-family:"Anton" ;
-  letter-spacing:2px;
-}
+
 .navbar-nav .nav-link.active{
  
   color:black;
   text-decoration: underline; 
   text-decoration-thickness:4px ;
+
 }
 
 
@@ -89,22 +95,24 @@ body{
     color:white;
     font-family: "lato", sans-serif;
 }
-.class-type{
+main{
+  flex:1 0 auto;
+  
+}
+#class-type{
   display:flex;
-   border: 2px solid black;
+   flex-direction: column;
 }
 .course{
   background-color: #444;
   color:white;
  margin:10px 5px;
-  border-radius: 8px;
-
-  width:50%;
+  width:100%;
 
 }
 .course-img{
    display:flex;
-   width:50%;
+   width:100%;
 
 }
 #testimonials{
@@ -191,6 +199,35 @@ footer{
 
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width:768px){
+    #logo{
+    font-size: x-large;
+  }
+ 
+}
 
-   
+/* Media query: large screen (992px and up)*/
+@media screen and (min-width:992px){
+  
+  #navbarText {
+  justify-content: flex-end;
+}
+
+.nav-item{
+  text-align: center;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+ #class-type{
+  display:flex;
+  flex-direction: row;
+}
+}
+
+/* Media query: large screen (1200px and up)*/
+@media screen and (min-width:1200px){
+   #logo{
+    font-size: xx-large;
+  }
 }

@@ -1,5 +1,5 @@
 # SheCAN Self-defence center for women
-
+## The purpose with this project
 
 Name of the Project: SheCAN
 Empower Women Through Self-Defense
@@ -14,8 +14,88 @@ Our mission goes beyond physical training — it’s about building a community 
 Here is the deployed website: 
 
 ![screenshot]
+# Table of contents
+## Table of Contents
 
-## UX
+</div>
+
+- [Introduction](#introduction)
+- [User Experience](#user-experience)
+    - [Project goals](#project-goals)
+    - [Site owner's goals](#site-owners-goals)
+    - [External user goals](#external-user-goals)
+    - [User stories](#user-stories)
+    - [Wireframes](#wireframes)
+    - [Design choices](#design-choices)
+    - [Features](#features)
+    - [Key-features to meet the goals](#key-features-to-meet-the-goals)
+    - [User Story Demonstration](#user-story-demonstration)
+- [Technologies](#technologies)
+    - [Tools](#tools)
+- [Testing](#testing)
+    - [Validation](#validation)
+    - [Lighthouse](#lighthouse)
+    - [Manual Testing](#manual-testing)
+    - [Browser Testing](#browser-testing)
+    - [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+    - [Media](#media)
+
+
+#Project Purpose and Goals
+##Purpose:
+To empower women by providing a safe and professional environment where they can learn self-defense skills to increase their confidence, safety, and independence in everyday life.
+
+##Goals:
+
+Offer accessible and professional self-defense training tailored for women of all ages and backgrounds.
+
+Provide flexible class formats: individual, group, and corporate/private sessions.
+
+Promote awareness of personal safety and prevention strategies.
+
+Build a supportive community that encourages physical and mental empowerment.
+
+#Call to Action (CTA)
+(These are clear prompts encouraging users to take action on your website)
+
+Examples:
+
+- "Book Your First Class Today!"
+
+- "Join a Group Session Now"
+
+- "Request a Corporate Training Package"
+
+- "Explore Our Courses and Pricing"
+
+#User Information
+(To clarify who the project is for and what kind of users it serves)
+
+##Target Users:
+
+Individual Women seeking personal safety skills and physical empowerment.
+
+Groups of Women (friends, family members, or communities) interested in learning together.
+
+Companies or Organizations looking to offer self-defense workshops or training sessions for their female employees or clients.
+
+##User Needs:
+
+Clear information about available classes, schedules, and prices.
+
+Ability to easily book a class or contact the center.
+
+Confidence in the professionalism, safety, and inclusivity of the training environment.
+
+Access to testimonials or credentials to trust the service.
+
+
+
+
+
+## UX/the design
 
 I started thinking about header of my pages content where I wanted a powerful video /photos to clearly indicate the purpose of the webpage. Tha main porpose and a call to action clearly showed indicat to the user where they can enroll for the next course. 
 Afterwards I started to think about a Icon and name that would suit my porpose. Then I started thinking about the layout and the color-scheme I wanted. Lastly I added the content I wanted  
@@ -87,6 +167,8 @@ I used [coolors.co](https://coolors.co/7d3e00-e2f6b9-ffffff-be0404) to generate 
 
 > [!NOTE]  
 >Please visit the [TESTING.md](TESTING.md) file.
+Lighthouse testing:
+# Validator testing
 
 ## Deployment
 
@@ -142,7 +224,7 @@ codeinstitute (love-running project):
 
 
 ### Content
-
+Code has been borrowed from that project love running, the Footer. It is commented in index.html and styles.css were the the borrowed code is applied.
 grid-container:
 https://www.w3schools.com/css/css_grid_container.asp
 
